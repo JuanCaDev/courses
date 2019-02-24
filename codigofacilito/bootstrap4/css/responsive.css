@@ -1,0 +1,68 @@
+/*
+*************************************
+        | EXTRA SMALL < 576px
+*************************************
+*/
+@media (max-width: 575.98px) {
+  .header-area .main-menu .navbar {
+    height: auto;
+  }
+  .main-info {
+    margin-top: 92px;
+  }
+}
+/*
+*************************************
+        | SMALL >= 576px
+*************************************
+*/
+@media (min-width: 576px) {
+  .header-area .main-menu .navbar .nav-link {
+    padding: .5rem 1rem;
+  }
+  .main-info {
+    margin-top: 80px;
+  }
+  .card-container .card {
+    max-width: 240px;
+  }
+}
+/*
+*************************************
+        | MEDIUM >= 768px
+*************************************
+*/
+@media (min-width: 768px) {
+  .header-area .main-menu .navbar .nav-link {
+    font-size: 16px;
+  }
+  .main-info {
+    margin-top: 100px;
+  }
+  .main-info .container {
+    bottom: -120px;
+  }
+  .card-container .card {
+    max-width: 360px;
+  }
+}
+/*
+*************************************
+        | LARGE >= 992px
+*************************************
+*/
+@media (min-width: 992px) {
+  .card-container .card {
+    max-width: 240px;
+  }
+}
+/*
+*************************************
+        | EXTRA LARGE >= 1200px
+*************************************
+*/
+@media (min-width: 1200px) {
+  .card-container .card {
+    max-width: 360px;
+  }
+}

@@ -1,0 +1,141 @@
+/*
+*************************************
+        | COLORS
+*************************************
+*/
+:root {
+  --blue-navy: #05205D;
+  --blue-light: #3155A7;
+  --brown-leather: #AB987A;
+  --orange-coral: #FF833D;
+  --white-egg: #F5F5F5;
+}
+/*
+*************************************
+        | HEADER
+*************************************
+*/
+.header-area .main-menu,
+.header-area .main-menu, .dropdown-menu {
+  background: var(--orange-coral);
+  box-shadow: 0 3px 16 0 rgba(0, 0, 0, .1);
+}
+.header-area .main-menu .navbar {
+  height: 70px;
+}
+.header-area .main-menu .navbar .nav-link {
+  font-size: 14px;
+  color: var(--white-egg);
+  padding: 8px;
+}
+.header-area .main-menu .navbar .nav-link:hover {
+  font-weight: 600;
+}
+/*
+*************************************
+        | MAIN-INFO SECTION
+*************************************
+*/
+.main-info {
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+.main-info .container {
+  border-radius: 12px;
+  bottom: -100px;
+  background: #fff;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  box-shadow: 0 2px 5px 0 rgba(153, 153, 153, .2);
+}
+.main-info .container .img-col .img-container > img {
+  width: 90%;
+  height: 80%;
+}
+.main-info .container .txt-col .text-container {
+  margin: 20px auto 0 auto;
+  width: 90%;
+}
+.main-info .container .txt-col .text-container h4 {
+  font-size: 16px;
+}
+.main-info .container .txt-col .text-container p {
+  font-size: 16px;
+  color: var(--brown-leather);
+  margin-bottom: 20px;
+}
+.main-info .container .txt-col .text-container ul.basic-info {
+  padding-left: 0;
+}
+.main-info .container .txt-col .text-container ul.basic-info > li {
+  margin-bottom: 8px;
+}
+.main-info .container .txt-col .text-container ul.basic-info > li > i{
+  margin-right: 4px;
+  color: var(--blue-navy);
+}
+.main-info .container .txt-col .text-container ul.social-nw {
+  padding-left: 0;
+}
+.main-info .container .txt-col .text-container ul.social-nw > li {
+  margin-right: 20px;
+}
+.main-info .container .txt-col .text-container ul.social-nw > li i{
+  font-size: 40px;
+  color: var(--blue-navy);
+}
+/*
+*************************************
+        | SKILLS SECTION
+*************************************
+*/
+.sect {
+  padding-top: 20px;
+}
+.sect-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.sect-subtitle {
+  margin-bottom: 20px;
+}
+.skill-item {
+  margin-bottom: 24px;
+}
+.skill-item .text {
+  margin-bottom: 8px;
+}
+.skill-item .progress .progress-bar {
+  height: 10px;
+  border-radius: 5px;
+  vertical-align: middle;
+  align-self: center;
+  background: linear-gradient(90deg, var(--blue-light) 0%, var(--brown-leather) 100%);
+}
+/*
+*************************************
+        | PORTFOLIO SECTION
+*************************************
+*/
+.portfolio {
+  margin-bottom: 20px;
+}
+.card-container .card {
+  max-width: 360px;
+  margin-top: 16px;
+}
+.card-container .card i {
+  font-size: 80px;
+  color: var(--blue-navy);
+}
+.card-container .card h5 {
+  margin-top: 12px;
+  margin-bottom: 8px;
+  opacity: .8;
+}
+.btn.collap {
+  font-size: 30px;
+}
+.btn:focus {
+  box-shadow: none;
+}
