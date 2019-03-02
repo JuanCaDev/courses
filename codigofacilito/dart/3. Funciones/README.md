@@ -3,3 +3,4 @@
 - [Retornar elementos de funciones](retornar-elementos.md)
 - [Parametros en funciones](parametros.md)
 - [Otra forma de declarar funciones](otra-declaracion.md)
+- [Parámetros opcionales](parametros-opcionales.md)
