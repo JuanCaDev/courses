@@ -26,9 +26,21 @@ main() {
 }
 ```
 Una forma más fácil de declarar el mismo constructor es:
+```
 class Persona {
   String nombre;
   int edad;
 
   Persona(this.nombre, this.edad);
 }
+```
+## Named constructor
+Podemos agregar un nombre al consructor para facilitar y/o personalizar su uso.
+```
+class Persona {
+  String nombre;
+  int edad;
+
+  Persona.miedad(this.edad);
+}
+```
