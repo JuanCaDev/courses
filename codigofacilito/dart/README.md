@@ -3,4 +3,4 @@
 - [Leccion 2](2.%20Condicionales%20y%20ciclos)
 - [Leccion 3](3.%20Funciones)
 - [Leccion 4](4.%20Programación%20Orientada%20a%20Objetos)
-- [Leccion 5](5.%20Estructura%20de%20datos%20e%20importsn)
+- [Leccion 5](5.%20Estructura%20de%20datos%20e%20imports)
