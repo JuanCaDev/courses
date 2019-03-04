@@ -1,6 +1,6 @@
 # Text
 El widget de texto muestra una cadena de texto con un solo estilo.
-````
+```
 Text(
   'Hola mundo',
   style: TextStyle(fontWeight: FontWeight.bold,  fontSize: 30),
