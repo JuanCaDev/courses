@@ -47,3 +47,18 @@ main() {
   juan.sumarEdad(); // 30
 }
 ```
+# Constructor
+Cuando la clase de la que heramos tiene un constructor, necesitamos definir por lo menos el mismo constructor si es que no queremos personalizarlo.
+```
+class Persona {
+  String nombre;
+  int edad;
+
+  Persona(this.nombre, this.edad)
+}
+
+class Hombre extends Persona {
+  Hombre(String nombre, int edad):super(nombre, edad);
+}
+```
+El construtor de 'Hombre' se va a comportar en este caso igual que el de 'Persona'  .
