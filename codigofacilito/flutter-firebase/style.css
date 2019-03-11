@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  height: 100vh;
+}
+.hero {
+  width: 100%;
+  height: 100%;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Srisakdi', cursive;
+  display: flex;
+}
+.hero .text {
+  width: 100%;
+  background-color: lightcyan;;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero .text h1, h2 {
+  display: inline-block;
+}
+.hero .text h1 {
+  font-size: 4rem;
+  margin: 0;
+  line-height: 5rem;
+  border: 1px solid #000;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, .16);
+}
+.hero .text h1 span {
+  font-size: 8rem;
+  margin: 0;
+}
+.hero .text h2 {
+  font-weight: 600;
+}
+.hero .text img {
+  display: inline-block;
+}
+.hero .text .play-store {
+  width: 150px;
+}
+.hero .text .app-store {
+  width: 145px;
+}
+.hero .phone {
+  width: 100%;
+  display: flex;
+  justify-content: center;;
+  align-items: center;
+}
+.hero .phone img {
+  width: 100%;
+  animation: float 4s infinite;
+}
+.hero .phone figure {
+  position: relative;
+}
+.hero .phone figure::after {
+  content: '';
+  width: 40.5%;
+  height: 10px;
+  background: gray;
+  box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .46);
+  position: absolute;
+  bottom: 2px;
+  left: 29%;
+  border-radius: 50%;
+  animation: shadow 4s infinite;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+@keyframes shadow {
+  0% {
+    height: 10px;
+    opacity: .2;
+    transform: scale(1);
+  }
+  50% {
+    height: 8px;
+    opacity: .15;
+    transform: scale(.9);
+  }
+  100% {
+    height: 10px;
+    opacity: .2;
+    transform: scale(1);
+  }
+}
+@media screen and (max-width: 425px) {
+  .container {
+    height: auto;
+  }
+  .hero {
+    flex-direction: column;
+  }
+  .hero .text {
+    padding: 20px 0;
+  }
+  .hero .text h1 {
+    padding: 20px;
+  }
+  .hero .text h2 {
+    font-size: 1.2em;
+  }
+  .hero .text .play-store {
+    width: 120px;
+  }
+  .hero .text .app-store {
+    width: 115px;
+    height: 80%;
+  }
+}
+@media screen and (min-width: 425.1px) {
+  figure {
+    margin: 0;
+  }
+}
