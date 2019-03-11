@@ -2,4 +2,4 @@
 En este curso desarrollamos una app para listar mascotas.
 - [Código del curso](flutter_firebase_app)
 - [Página presentación app](https://juancadev.github.io/courses/codigofacilito/flutter-firebase//)
-![Landing Page](C:\Users\juanc\Desktop\app.png)
+![Landing Page](assets/page.png)
