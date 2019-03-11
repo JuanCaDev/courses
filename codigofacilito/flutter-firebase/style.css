@@ -7,6 +7,17 @@ a {
 .container {
   height: 100vh;
 }
+.github {
+  position: fixed;
+  width: 40px;
+  padding: 15px;
+  background: white;
+  border-radius: 0 0 50% 0;
+}
+.github img {
+  width: 100%;
+  color: white;
+}
 .hero {
   width: 100%;
   height: 100%;
@@ -103,21 +114,19 @@ a {
     transform: scale(1);
   }
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 560px) {
   .container {
     height: auto;
+  }
+  .github {
+    width: 30px;
+    padding: 10px;
   }
   .hero {
     flex-direction: column;
   }
   .hero .text {
     padding: 20px 0;
-  }
-  .hero .text h1 {
-    padding: 20px;
-  }
-  .hero .text h2 {
-    font-size: 1.2em;
   }
   .hero .text .play-store {
     width: 120px;
@@ -130,5 +139,23 @@ a {
 @media screen and (min-width: 425.1px) {
   figure {
     margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .hero .text h1 {
+    font-size: 3rem;
+    padding: 20px;
+  }
+  .hero .text h1 span {
+    font-size: 6.5rem;
+  }
+  .hero .text h2 {
+    font-size: 1.2em;
+  }
+  .hero .text .play-store {
+    width: 130px;
+  }
+  .hero .text .app-store {
+    width: 125px;
   }
 }
