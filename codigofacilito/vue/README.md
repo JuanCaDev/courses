@@ -7,3 +7,4 @@
   - [Ciclo de vida del componente](2.%20Fundamentos%20de%20Vue/ciclo-de-vida-del-componente.html)
   - [Directivas](2.%20Fundamentos%20de%20Vue/directivas.html)
   - [Trabajando con listas](2.%20Fundamentos%20de%20Vue/trabajando-con-listas.html)
+  - [Trabajando con listas](2.%20Fundamentos%20de%20Vue/condicionales.html)
