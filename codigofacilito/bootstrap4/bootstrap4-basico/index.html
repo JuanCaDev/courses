@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mi portafolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header-area fixed-top">
+    <div class="main-menu">
+      <nav class="navbar">
+        <div class="container">
+          <div class="nav ml-auto mr-auto mr-md-0">
+            <li class="nav-item active"><a href="#main-info" class="nav-link">Principal</a></li>
+            <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
+            <li class="nav-item"><a href="#education" class="nav-link">Educación</a></li>
+            <li class="nav-item submenu dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Proyectos
+              </a>
+              <ul class="dropdown-menu">
+                <li class="nav-item"><a href="#portfolio" class="nav-link">Portafolio</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">GitHub</a></li>
+              </ul>
+            </li>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- / Header -->
+
+  <!-- Main info -->
+  <section class="main-info bg-grd" id="main-info">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-5 col-xl-6 img-col d-flex align-items-center">
+          <div class="img-container d-flex justify-content-center img-fluid">
+            <img src="img/picture.jpg" alt="Mi foto">
+          </div>
+        </div>
+        <div class="col-12 col-md-7 col-xl-6 txt-col">
+          <div class="text-container">
+            <h3 class="sect-title text-uppercase">Juan Felizzola</h3>
+            <h4 class="text-uppercase">Frontend and Movil Developer</h4>
+            <p>Desarrollador de aplicaciones web y móviles</p>
+            <ul class="list-unstyled basic-info">
+              <li><i class="fas fa-calendar-alt"></i>9 Sep, 1996</li>
+              <li><i class="fas fa-phone"></i>+57 318 451 2929</li>
+              <li><i class="fas fa-at"></i>juanfelizzola@gmail.com</li>
+              <li><i class="fas fa-map-marker-alt"></i>Bucaramanga, Colombia</li>
+            </ul>
+            <ul class="list-inline social-nw">
+              <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Main info -->
+  <!-- Skills -->
+  <section class="sect skills" id="skills">
+    <div class="container">
+      <div class="head-content d-flex align-items-baseline">
+        <button class="btn collap" type="button" data-toggle="collapse" data-target="#skills-content" aria-expanded="false" aria-controls="portfolio-content">
+          <i class="far fa-plus-square"></i>
+        </button>
+        <h3 class="sect-title">Habilidades</h3>
+      </div>
+      <div class="row collapse" id="skills-content">
+        <div class="skills-col col-12 col-md-6">
+          <h4 class="sect-subtitle">Desarrollo de software</h4>
+          <div class="skill-item">
+            <p class="text">HTML + CSS</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 90%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <p class="text">JS + TS + Angular</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <p class="text">JS + Vue</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 50%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="skills-col col-12 col-md-6">
+          <h4 class="sect-subtitle">Otras</h4>
+          <div class="skill-item">
+            <p class="text">Inglés</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 20%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <p class="text">Photoshop</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 60%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <p class="text">Adobe XD</p>
+            <div class="progress">
+              <div class="progress-bar" style="width: 80%;" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Skills -->
+  <!-- Portfolio -->
+  <section class="sect portfolio bg-grad-b" id="portfolio">
+    <div class="container">
+      <div class="head-content d-flex align-items-baseline">
+        <button class="btn collap" type="button" data-toggle="collapse" data-target="#portfolio-content" aria-expanded="false" aria-controls="portfolio-content">
+          <i class="far fa-plus-square"></i>
+        </button>
+        <h3 class="sect-title">Proyectos destacados</h3>
+      </div>
+    </div>
+
+    <div class="container-fluid collapse" id="portfolio-content">
+      <div class="card-container d-flex flex-wrap justify-content-around align-items-center">
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-credit-card"></i>
+            <h5 class="card-title">Sistema de pagos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae officiis, laudantium rem provident, neque omnis aperiam cumque
+              blanditiis repellat similique amet distinctio quasi.</p>
+              <a href="#" class="btn btn-primary">Ir a sitio web</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-credit-card"></i>
+            <h5 class="card-title">Sistema de pagos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae officiis, laudantium rem provident, neque omnis aperiam cumque
+              blanditiis repellat similique amet distinctio quasi.</p>
+              <a href="#" class="btn btn-primary">Ir a sitio web</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-credit-card"></i>
+            <h5 class="card-title">Sistema de pagos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae officiis, laudantium rem provident, neque omnis aperiam cumque
+              blanditiis repellat similique amet distinctio quasi.</p>
+              <a href="#" class="btn btn-primary">Ir a sitio web</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <i class="fas fa-credit-card"></i>
+            <h5 class="card-title">Sistema de pagos</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae officiis, laudantium rem provident, neque omnis aperiam cumque
+              blanditiis repellat similique amet distinctio quasi.</p>
+              <a href="#" class="btn btn-primary">Ir a sitio web</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- / Portfolio -->
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
