@@ -1,2 +1,2 @@
 # Curso de Bootstrap 4
-[Proyecto final](https://juancadev.github.io/courses/codigofacilito/bootstrap4/)
+[Proyecto final](https://www.juanca.dev/courses/codigofacilito/bootstrap4/bootstrap4-basico/)
