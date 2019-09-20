@@ -1,0 +1,102 @@
+:root {
+  --bkg-red-rose: #B3494D;
+  --orange-lighter: #F59678;
+  --bkg-beige-color: #FFA50040;
+}
+
+#home-pg {
+  background-color: var(--bkg-beige-color);
+}
+
+/* Navbar */
+#default-navbar {
+  background-color: var(--bkg-red-rose);
+}
+#default-navbar .navbar-brand,
+#default-navbar .nav-link {
+  color: #FFF;
+}
+
+/* Carousel */
+#home-carousel .carousel-item {
+  height: 240px;
+  text-shadow: 1px 1px 2px #000;
+}
+#home-carousel .carousel-item  img {
+  height: 100%;
+  object-fit: cover;
+}
+#home-carousel .carousel-caption > h5 {
+  font-size: 2rem;
+}
+#home-carousel .carousel-caption > p {
+  font-size: 1.25rem;
+}
+
+/* Options */
+.options-sect {
+  background-color: var(--bkg-red-rose);
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.options-area {
+  height: inherit;
+  padding: 20px 0;
+}
+.options-area .option {
+  text-align: center;
+  color: #FFF;
+  flex-grow: 1;
+  flex-basis: 0;
+  min-width: 300px;
+}
+.options-area .option .option-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.options-area .option .option-title {
+  font-size: 28px;
+  font-weight: 700;
+}
+.options-area .option .option-description {
+  margin-top: 12px;
+  margin-bottom: 0;
+}
+.btn-orange {
+  background-color: var(--orange-lighter);
+  color: #FFF;
+}
+
+/* Adoptions */
+.adoptions-sect {
+  background-color: #FFF;
+}
+.section-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #6E757D;
+  margin-bottom: 28px;
+  margin-top: 12px;
+}
+.monthly-adoptions-area {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+.img-container figure > img {
+  height: 184px;
+  width: 100%;
+  object-fit: cover;
+}
+.img-container figure > figcaption {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--orange-lighter);
+  text-align: center;
+}
